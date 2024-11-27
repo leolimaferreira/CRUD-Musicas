@@ -129,7 +129,7 @@ public class MusicaBoundary extends Application{
                                 try { 
                                     control.excluir( musica ); 
                                 } catch (MusicaException err) { 
-                                    new Alert(AlertType.ERROR, "Erro ao excluir o contato", ButtonType.OK).showAndWait();
+                                    new Alert(AlertType.ERROR, "Erro ao excluir a musica", ButtonType.OK).showAndWait();
                                 }
                             });
                         }
