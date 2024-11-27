@@ -125,9 +125,9 @@ public class MusicaBoundary extends Application{
 
                         {
                             btnApagar.setOnAction( e -> {
-                                Musica contato = tableView.getItems().get( getIndex() );
+                                Musica musica = tableView.getItems().get( getIndex() );
                                 try { 
-                                    control.excluir( contato ); 
+                                    control.excluir( musica ); 
                                 } catch (MusicaException err) { 
                                     new Alert(AlertType.ERROR, "Erro ao excluir o contato", ButtonType.OK).showAndWait();
                                 }
