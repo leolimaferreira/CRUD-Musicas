@@ -53,7 +53,7 @@ public class MusicaBoundary extends Application{
             try { 
                 control.gravar();
             } catch (MusicaException err) { 
-                new Alert(AlertType.ERROR, "Erro ao gravar o contato", ButtonType.OK).showAndWait();
+                new Alert(AlertType.ERROR, "Erro ao gravar a musica", ButtonType.OK).showAndWait();
             }
             tableView.refresh();
         });

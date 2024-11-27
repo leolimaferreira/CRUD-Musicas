@@ -12,7 +12,7 @@ import entity.Musica;
 public class MusicaDAOImpl implements MusicaDAO{
 	
 	private final static String DB_CLASS = "org.mariadb.jdbc.Driver";
-    private final static String DB_URL = "jdbc:mariadb://localhost:3307/gravadoradb?allowPublicKeyRetrieval=true";
+    private final static String DB_URL = "jdbc:mariadb://localhost:3307/nba?allowPublicKeyRetrieval=true";
     private final static String DB_USER = "root";
     private final static String DB_PASS = "alunofatec";
 
