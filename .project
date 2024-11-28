@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/mariadb-java-client-3.5.1.jar</name>
+			<type>1</type>
+			<location>C:/Users/leona/Downloads/mariadb-java-client-3.5.1.jar</location>
+		</link>
+	</linkedResources>
 </projectDescription>
